@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Cargar datos
-df = pd.read_excel(./"Track Investigación de Mercados.xlsx", sheet_name="BASE")
+df = pd.read_excel("./Track Investigación de Mercados.xlsx", sheet_name="BASE")
 
 # Título
 st.title("Dashboard de Proyectos de Investigación de Mercados")
